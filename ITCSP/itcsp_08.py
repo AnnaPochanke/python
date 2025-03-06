@@ -1,0 +1,5 @@
+name = input("Enter your name: ... ")
+birthYear = int(input("Enter your birth year: ... "))
+currentYear = int(input("Enter current year: ... "))
+age = str(currentYear-birthYear)
+print(name+', you are '+age+' years old.')
