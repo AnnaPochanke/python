@@ -15,16 +15,11 @@
 
 sum = 3000
 
-counter = 5
+counter = 0
 try:
     result = sum / counter
     print(f'The result of division {sum} / {counter} = {result}')
 except ZeroDivisionError:
     print("You can't divide by 0!")
 #     raise ValueError('You can\'t divide by 0!')
-#     print('You can\'t divide by 0!')
-#     print('You can\'t divide by 0!')
-#     print('You can\'t divide by 0!')
-#     print('You can\'t divide by 0!')
-#     print('You can\'t divide by 0!')
 #     print('You can\'t divide by 0!')
