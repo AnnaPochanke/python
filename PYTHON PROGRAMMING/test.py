@@ -1,10 +1,14 @@
-# A dictionary is given:
-# stocks = {'Playway': 35, 'CD Projekt': 150, 'Boombit': 320}
-# Using the dictionary comprehension, extract from the dictionary key-value pairs with a value above 100.
-# Use drag and drop method. Not all choices are correct.
-# EXPECTED RESULT:
-# stocks = {'CD Projekt': 150, 'Boombit': 320}
-# '''
-stocks = {'Playway': 35, 'CD Projekt': 150, 'Boombit': 320}
-d = {k: v for k, v in stocks.items() if v > 100}
-print(d)
+x = int(input("Please enter an integer:\n"))
+if x % 2 == 0:
+    int_type = 'even'
+else:
+    int_type = 'odd'
+print(f'You entered {x} which is an {int_type} integer.')
+
+
+x = int(input("Please enter an integer:\n"))
+
+if x % 2 == 0:
+    int_type = 'even'
+else:
+    int_type = 'odd'
