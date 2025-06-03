@@ -1,0 +1,3 @@
+support@example.com
+john.doe@business.org
+jane_smith@corporate.net
